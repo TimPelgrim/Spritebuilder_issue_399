@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A33F1484-708B-41D6-B6F6-38CE1969F322</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BrutaalEngels</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3BC4C39E-8169-4B96-BD43-24AAB9D51659</key>
+		<string>ssh://bitbucket.org/yipyip/0078-brutaal-en.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BrutaalEngels.spritebuilder/BrutaalEngels.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3BC4C39E-8169-4B96-BD43-24AAB9D51659</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/yipyip/0078-brutaal-en.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3BC4C39E-8169-4B96-BD43-24AAB9D51659</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3BC4C39E-8169-4B96-BD43-24AAB9D51659</string>
+			<key>IDESourceControlWCCName</key>
+			<string>0078-Brutaal EN</string>
+		</dict>
+	</array>
+</dict>
+</plist>

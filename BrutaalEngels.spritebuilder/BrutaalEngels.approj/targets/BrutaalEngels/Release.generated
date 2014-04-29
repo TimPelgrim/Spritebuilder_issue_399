@@ -1,0 +1,965 @@
+{
+    "assets": [
+        {
+            "asset": "Source/Resources/Icons/Settings.png", 
+            "target": "Settings.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad@2x.png", 
+            "target": "iPad@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/checkMark.png", 
+            "target": "checkMark.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad.png", 
+            "target": "iPad.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad-old@2x.png", 
+            "target": "iPad-old@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Data/userData.sqlite", 
+            "target": "userData.sqlite"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone-old@2x.png", 
+            "target": "iPhone-old@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS", 
+            "target": "Published-iOS"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/Settings@2x.png", 
+            "target": "Settings@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/cross.png", 
+            "target": "cross.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "Source/Resources/Data/content.sqlite", 
+            "target": "content.sqlite"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone-old.png", 
+            "target": "iPhone-old.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone.png", 
+            "target": "iPhone.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone@2x.png", 
+            "target": "iPhone@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad-old.png", 
+            "target": "iPad-old.png"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "BrutaalEngels", 
+        "APPLICATION_IDENTIFIER": "nl.yipyip.brutaal2", 
+        "APPLICATION_NAME": "BrutaalEngels", 
+        "LONG_VERSION": "1", 
+        "SHORT_VERSION": "1.0 alpha", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "BrutaalEngels", 
+            "PRODUCT_NAME": "BrutaalEngels"
+        }
+    }, 
+    "defines": {
+        "NDEBUG": 1, 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 50000
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreMotion", 
+        "QuartzCore", 
+        "OpenGLES", 
+        "OpenAL", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "CoreText"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "BrutaalEngels-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "BrutaalEngels-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "BrutaalEngels-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "BrutaalEngels-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Source/Classes/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "BEAnswer.h": {
+                    "key": "BEAnswer.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BEAnswer.h"
+                }, 
+                "BEAvatarCarousel.h": {
+                    "key": "BEAvatarCarousel.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BEAvatarCarousel.h"
+                }, 
+                "BEConstants.h": {
+                    "key": "BEConstants.h", 
+                    "prefix": "Source/Classes/", 
+                    "suffix": "BEConstants.h"
+                }, 
+                "BEDatatypes.h": {
+                    "key": "BEDatatypes.h", 
+                    "prefix": "Source/Classes/Model/", 
+                    "suffix": "BEDatatypes.h"
+                }, 
+                "BEGameAnswerSpace.h": {
+                    "key": "BEGameAnswerSpace.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/AnswerSpace/", 
+                    "suffix": "BEGameAnswerSpace.h"
+                }, 
+                "BEGameAnswerSpaceProfessor.h": {
+                    "key": "BEGameAnswerSpaceProfessor.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/AnswerSpace/", 
+                    "suffix": "BEGameAnswerSpaceProfessor.h"
+                }, 
+                "BEGameAnswerSpaceQuestion.h": {
+                    "key": "BEGameAnswerSpaceQuestion.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/AnswerSpace/", 
+                    "suffix": "BEGameAnswerSpaceQuestion.h"
+                }, 
+                "BEGameAnswerSpaceRocket.h": {
+                    "key": "BEGameAnswerSpaceRocket.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/AnswerSpace/", 
+                    "suffix": "BEGameAnswerSpaceRocket.h"
+                }, 
+                "BEGameAnswerSpaceUFO.h": {
+                    "key": "BEGameAnswerSpaceUFO.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/AnswerSpace/", 
+                    "suffix": "BEGameAnswerSpaceUFO.h"
+                }, 
+                "BEGameDragDelegate.h": {
+                    "key": "BEGameDragDelegate.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEGameDragDelegate.h"
+                }, 
+                "BEGameFillInPlants.h": {
+                    "key": "BEGameFillInPlants.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/FillInPlants/", 
+                    "suffix": "BEGameFillInPlants.h"
+                }, 
+                "BEGameFillInPlantsPipe.h": {
+                    "key": "BEGameFillInPlantsPipe.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/FillInPlants/", 
+                    "suffix": "BEGameFillInPlantsPipe.h"
+                }, 
+                "BEGameFillInPlantsQuestion.h": {
+                    "key": "BEGameFillInPlantsQuestion.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/FillInPlants/", 
+                    "suffix": "BEGameFillInPlantsQuestion.h"
+                }, 
+                "BEGameHUD.h": {
+                    "key": "BEGameHUD.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/HUD/", 
+                    "suffix": "BEGameHUD.h"
+                }, 
+                "BEGameHUDItem.h": {
+                    "key": "BEGameHUDItem.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/HUD/", 
+                    "suffix": "BEGameHUDItem.h"
+                }, 
+                "BEGameMatchingPlants.h": {
+                    "key": "BEGameMatchingPlants.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/", 
+                    "suffix": "BEGameMatchingPlants.h"
+                }, 
+                "BEGameResultHeart.h": {
+                    "key": "BEGameResultHeart.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/Components/", 
+                    "suffix": "BEGameResultHeart.h"
+                }, 
+                "BEGameResultPopUp.h": {
+                    "key": "BEGameResultPopUp.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/", 
+                    "suffix": "BEGameResultPopUp.h"
+                }, 
+                "BEGameSceneNode.h": {
+                    "key": "BEGameSceneNode.h", 
+                    "prefix": "Source/Classes/View/Scenes/Skins/", 
+                    "suffix": "BEGameSceneNode.h"
+                }, 
+                "BEHeartsCounter.h": {
+                    "key": "BEHeartsCounter.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BEHeartsCounter.h"
+                }, 
+                "BELevel.h": {
+                    "key": "BELevel.h", 
+                    "prefix": "Source/Classes/Model/", 
+                    "suffix": "BELevel.h"
+                }, 
+                "BELevelGenerator.h": {
+                    "key": "BELevelGenerator.h", 
+                    "prefix": "Source/Classes/Model/", 
+                    "suffix": "BELevelGenerator.h"
+                }, 
+                "BELevelPlay.h": {
+                    "key": "BELevelPlay.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BELevelPlay.h"
+                }, 
+                "BELevelResult.h": {
+                    "key": "BELevelResult.h", 
+                    "prefix": "Source/Classes/Model/", 
+                    "suffix": "BELevelResult.h"
+                }, 
+                "BELocation.h": {
+                    "key": "BELocation.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BELocation.h"
+                }, 
+                "BELocationButton.h": {
+                    "key": "BELocationButton.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BELocationButton.h"
+                }, 
+                "BELocationState.h": {
+                    "key": "BELocationState.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BELocationState.h"
+                }, 
+                "BELocationStateIndicator.h": {
+                    "key": "BELocationStateIndicator.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BELocationStateIndicator.h"
+                }, 
+                "BELocationView.h": {
+                    "key": "BELocationView.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BELocationView.h"
+                }, 
+                "BEMapScreen.h": {
+                    "key": "BEMapScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEMapScreen.h"
+                }, 
+                "BEMapScreenSpace.h": {
+                    "key": "BEMapScreenSpace.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEMapScreenSpace.h"
+                }, 
+                "BEMiniGamePlants.h": {
+                    "key": "BEMiniGamePlants.h", 
+                    "prefix": "Source/Classes/View/Scenes/MiniGames/", 
+                    "suffix": "BEMiniGamePlants.h"
+                }, 
+                "BEMiniGameSpace.h": {
+                    "key": "BEMiniGameSpace.h", 
+                    "prefix": "Source/Classes/View/Scenes/MiniGames/", 
+                    "suffix": "BEMiniGameSpace.h"
+                }, 
+                "BEMinigame.h": {
+                    "key": "BEMinigame.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BEMinigame.h"
+                }, 
+                "BEMinigameButton.h": {
+                    "key": "BEMinigameButton.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BEMinigameButton.h"
+                }, 
+                "BEMinigameSceneNode.h": {
+                    "key": "BEMinigameSceneNode.h", 
+                    "prefix": "Source/Classes/View/Scenes/MiniGames/", 
+                    "suffix": "BEMinigameSceneNode.h"
+                }, 
+                "BEMinigameState.h": {
+                    "key": "BEMinigameState.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BEMinigameState.h"
+                }, 
+                "BEModel.h": {
+                    "key": "BEModel.h", 
+                    "prefix": "Source/Classes/Model/", 
+                    "suffix": "BEModel.h"
+                }, 
+                "BENewUserScreen.h": {
+                    "key": "BENewUserScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BENewUserScreen.h"
+                }, 
+                "BEOptionsScreen.h": {
+                    "key": "BEOptionsScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/Options/", 
+                    "suffix": "BEOptionsScreen.h"
+                }, 
+                "BEOverviewMapScreen.h": {
+                    "key": "BEOverviewMapScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEOverviewMapScreen.h"
+                }, 
+                "BEQuestion.h": {
+                    "key": "BEQuestion.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BEQuestion.h"
+                }, 
+                "BESceneNode.h": {
+                    "key": "BESceneNode.h", 
+                    "prefix": "Source/Classes/View/Base/", 
+                    "suffix": "BESceneNode.h"
+                }, 
+                "BESceneNodeFactory.h": {
+                    "key": "BESceneNodeFactory.h", 
+                    "prefix": "Source/Classes/View/", 
+                    "suffix": "BESceneNodeFactory.h"
+                }, 
+                "BEScreenTypes.h": {
+                    "key": "BEScreenTypes.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEScreenTypes.h"
+                }, 
+                "BEStatisticsDetailNode.h": {
+                    "key": "BEStatisticsDetailNode.h", 
+                    "prefix": "Source/Classes/View/Scenes/Options/", 
+                    "suffix": "BEStatisticsDetailNode.h"
+                }, 
+                "BEStatisticsScreen.h": {
+                    "key": "BEStatisticsScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/Options/", 
+                    "suffix": "BEStatisticsScreen.h"
+                }, 
+                "BEUser.h": {
+                    "key": "BEUser.h", 
+                    "prefix": "Source/Classes/Model/Entities/", 
+                    "suffix": "BEUser.h"
+                }, 
+                "BEUserScreen.h": {
+                    "key": "BEUserScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEUserScreen.h"
+                }, 
+                "BEUtilities.h": {
+                    "key": "BEUtilities.h", 
+                    "prefix": "Source/Classes/", 
+                    "suffix": "BEUtilities.h"
+                }, 
+                "BEViewUtility.h": {
+                    "key": "BEViewUtility.h", 
+                    "prefix": "Source/Classes/View/", 
+                    "suffix": "BEViewUtility.h"
+                }, 
+                "BEWorldMapScreen.h": {
+                    "key": "BEWorldMapScreen.h", 
+                    "prefix": "Source/Classes/View/Scenes/", 
+                    "suffix": "BEWorldMapScreen.h"
+                }, 
+                "BEWorldProgressIndicator.h": {
+                    "key": "BEWorldProgressIndicator.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BEWorldProgressIndicator.h"
+                }, 
+                "BEWorldView.h": {
+                    "key": "BEWorldView.h", 
+                    "prefix": "Source/Classes/View/Scenes/Components/", 
+                    "suffix": "BEWorldView.h"
+                }, 
+                "CCExtendedButton.h": {
+                    "key": "CCExtendedButton.h", 
+                    "prefix": "Source/Classes/View/CCExtensions/", 
+                    "suffix": "CCExtendedButton.h"
+                }, 
+                "Prefix.pch": {
+                    "key": "Prefix.pch", 
+                    "prefix": "Source/", 
+                    "suffix": "Prefix.pch"
+                }, 
+                "YYSQLiteDatabase.h": {
+                    "key": "YYSQLiteDatabase.h", 
+                    "prefix": "Source/Classes/Model/Database/", 
+                    "suffix": "YYSQLiteDatabase.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/lf/dpy25phs0js3hczzsmnfq9wc0000gn/T/tmprU0bmu/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include/kazmath", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include/kazmath/GL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Support", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/Chipmunk/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d-ui", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Actions", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Session", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Support", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/lf/dpy25phs0js3hczzsmnfq9wc0000gn/T/tmprU0bmu/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/lf/dpy25phs0js3hczzsmnfq9wc0000gn/T/tmprU0bmu/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./Source/Resources/Info.plist"
+    ], 
+    "libs": [
+        "z", 
+        "sqlite3", 
+        "sqlite3"
+    ], 
+    "modules": [
+        {
+            "build_cwd": "Source/libs/cocos2d-iphone", 
+            "project": "cocos2d-ios", 
+            "project_config": "Release", 
+            "target": "cocos2d"
+        }, 
+        {
+            "build_cwd": "Source/libs/cocos2d-iphone", 
+            "project": "Chipmunk7-ios", 
+            "project_config": "Release", 
+            "target": "ObjectiveChipmunk-iPhone"
+        }
+    ], 
+    "pchs": [
+        "./Source/Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/BEConstants.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/BEUtilities.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/BELevel.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/BELevelGenerator.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/BELevelResult.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/BEModel.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Database/YYSQLiteDatabase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BEAnswer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BELevelPlay.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BELocation.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BELocationState.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BEMinigame.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BEMinigameState.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BEQuestion.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/Model/Entities/BEUser.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/BESceneNodeFactory.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/BEViewUtility.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Base/BESceneNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/CCExtensions/CCExtendedButton.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BEMapScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BEMapScreenSpace.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BENewUserScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BEOverviewMapScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BEScreenTypes.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BEUserScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/BEWorldMapScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BEAvatarCarousel.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BEHeartsCounter.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BELocationButton.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BELocationStateIndicator.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BELocationView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BEMinigameButton.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BEWorldProgressIndicator.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Components/BEWorldView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/MiniGames/BEMiniGamePlants.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/MiniGames/BEMiniGameSpace.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/MiniGames/BEMinigameSceneNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Options/BEOptionsScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Options/BEStatisticsDetailNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Options/BEStatisticsScreen.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/AnswerSpace/BEGameAnswerSpace.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/AnswerSpace/BEGameAnswerSpaceProfessor.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/AnswerSpace/BEGameAnswerSpaceQuestion.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/AnswerSpace/BEGameAnswerSpaceRocket.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/AnswerSpace/BEGameAnswerSpaceUFO.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/BEGameMatchingPlants.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/BEGameResultPopUp.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/BEGameSceneNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/Components/BEGameResultHeart.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/FillInPlants/BEGameFillInPlants.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/FillInPlants/BEGameFillInPlantsPipe.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/FillInPlants/BEGameFillInPlantsQuestion.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/HUD/BEGameHUD.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Classes/View/Scenes/Skins/HUD/BEGameHUDItem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/main.m"
+        }
+    ], 
+    "type": "app", 
+    "version": "2", 
+    "xcode_project": "BrutaalEngels.xcodeproj"
+}

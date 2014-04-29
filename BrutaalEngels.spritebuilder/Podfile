@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "7.0"
+
+target "BrutaalEngels" do
+
+pod 'YYLib', :git => 'git@bitbucket.org:yipyip/0000-yipyip-software-library.git'
+
+end
+
