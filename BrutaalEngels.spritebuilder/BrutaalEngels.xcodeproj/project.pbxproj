@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F37D34518D0549A009A7424 /* Categories.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F37D33D18D0549A009A7424 /* Categories.strings */; };
-		1F37D34618D0549A009A7424 /* Dynamic.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F37D33F18D0549A009A7424 /* Dynamic.strings */; };
-		1F37D34718D0549A009A7424 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F37D34118D0549A009A7424 /* Localizable.strings */; };
-		1F37D34818D0549A009A7424 /* Themes.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F37D34318D0549A009A7424 /* Themes.strings */; };
 		1FFB21EA18BDFA4800051AFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB219818BDFA4800051AFC /* AppDelegate.m */; };
 		1FFB220718BDFA4800051AFC /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB21E018BDFA4800051AFC /* TestScene.m */; };
 		2215773D18AA85C800F9960B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215773C18AA85C800F9960B /* libsqlite3.dylib */; };
 		227401AA18FD2BFF0083E762 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227401A918FD2BFF0083E762 /* GLKit.framework */; };
 		2298F92418B2A94400E1E44C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2298F92318B2A94400E1E44C /* CoreMotion.framework */; };
-		6725A172D78940B7A7521691 /* libPods-BrutaalEngels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A73961D0CECA4421B5359596 /* libPods-BrutaalEngels.a */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -63,10 +58,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F37D33E18D0549A009A7424 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Categories.strings; sourceTree = "<group>"; };
-		1F37D34018D0549A009A7424 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Dynamic.strings; sourceTree = "<group>"; };
-		1F37D34218D0549A009A7424 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		1F37D34418D0549A009A7424 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Themes.strings; sourceTree = "<group>"; };
 		1FFB219718BDFA4800051AFC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FFB219818BDFA4800051AFC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1FFB21DF18BDFA4800051AFC /* TestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestScene.h; path = View/Scenes/Skins/FillInPlants/TestScene.h; sourceTree = "<group>"; };
@@ -74,7 +65,6 @@
 		2215773C18AA85C800F9960B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		227401A918FD2BFF0083E762 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		2298F92318B2A94400E1E44C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		8DD508BE7E4942BCB2491D85 /* Pods-BrutaalEngels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrutaalEngels.xcconfig"; path = "Pods/Pods-BrutaalEngels.xcconfig"; sourceTree = "<group>"; };
 		A73961D0CECA4421B5359596 /* libPods-BrutaalEngels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrutaalEngels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -125,24 +115,12 @@
 				B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */,
 				B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */,
 				B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */,
-				6725A172D78940B7A7521691 /* libPods-BrutaalEngels.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F37D33C18D0549A009A7424 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				1F37D33D18D0549A009A7424 /* Categories.strings */,
-				1F37D33F18D0549A009A7424 /* Dynamic.strings */,
-				1F37D34118D0549A009A7424 /* Localizable.strings */,
-				1F37D34318D0549A009A7424 /* Themes.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
 		1FFB219618BDFA4800051AFC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,14 +181,12 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
-				1F37D33C18D0549A009A7424 /* en.lproj */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
 				B77F1CCF17B978D8009739AE /* Supporting Files */,
 				B77F1B3017B978D7009739AE /* Frameworks */,
 				B77F1B2F17B978D7009739AE /* Products */,
-				8DD508BE7E4942BCB2491D85 /* Pods-BrutaalEngels.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,11 +245,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B77F1CDE17B978D8009739AE /* Build configuration list for PBXNativeTarget "BrutaalEngels" */;
 			buildPhases = (
-				65B4510F3620431A8721593D /* Check Pods Manifest.lock */,
 				B77F1B2A17B978D7009739AE /* Sources */,
 				B77F1B2B17B978D7009739AE /* Frameworks */,
 				B77F1B2C17B978D7009739AE /* Resources */,
-				608EC03610444571B2EF9EEC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,14 +325,10 @@
 				B71F5916188484E7003F4D28 /* iPhone-old@2x.png in Resources */,
 				B737893B180761570076A88C /* Published-iOS in Resources */,
 				B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */,
-				1F37D34818D0549A009A7424 /* Themes.strings in Resources */,
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
-				1F37D34718D0549A009A7424 /* Localizable.strings in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
-				1F37D34618D0549A009A7424 /* Dynamic.strings in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
-				1F37D34518D0549A009A7424 /* Categories.strings in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
@@ -366,39 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		608EC03610444571B2EF9EEC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-BrutaalEngels-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		65B4510F3620431A8721593D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B77F1B2A17B978D7009739AE /* Sources */ = {
@@ -420,41 +357,6 @@
 			targetProxy = B7378988180764180076A88C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1F37D33D18D0549A009A7424 /* Categories.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F37D33E18D0549A009A7424 /* en */,
-			);
-			name = Categories.strings;
-			sourceTree = "<group>";
-		};
-		1F37D33F18D0549A009A7424 /* Dynamic.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F37D34018D0549A009A7424 /* en */,
-			);
-			name = Dynamic.strings;
-			sourceTree = "<group>";
-		};
-		1F37D34118D0549A009A7424 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F37D34218D0549A009A7424 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		1F37D34318D0549A009A7424 /* Themes.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F37D34418D0549A009A7424 /* en */,
-			);
-			name = Themes.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B77F1CDC17B978D8009739AE /* Debug */ = {
@@ -520,7 +422,6 @@
 		};
 		B77F1CDF17B978D8009739AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DD508BE7E4942BCB2491D85 /* Pods-BrutaalEngels.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -556,7 +457,6 @@
 		};
 		B77F1CE017B978D8009739AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DD508BE7E4942BCB2491D85 /* Pods-BrutaalEngels.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
